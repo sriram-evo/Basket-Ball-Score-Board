@@ -1,0 +1,72 @@
+body{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+}
+
+.img{
+    background-image: url(asset/king-siberia-OM8vIkrENk0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.counter{
+    width: 760px;
+    height: 450px;
+    background: rgba(248, 160, 111, 0.56);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    position: absolute;
+    bottom: 110px;
+    left: 370px;
+    display: flex;
+    justify-content: space-around;
+}
+.home{
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 225px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.point{
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 75px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+cursor: pointer;
+}
+
+.point:hover{
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.points{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.home-out{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.points{
+    margin-top: -30px;
+}
